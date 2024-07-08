@@ -1,0 +1,35 @@
+h1{
+    color: red; /*Comentarios en CSS*/
+    background-color: yellow;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+    text-transform: uppercase; /*Convertir en Mayusculas*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: green;
+    line-height: 25px; /*Separacion entre lineas*/
+}
+
+.destacados{
+    color: blueviolet;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#caja{
+    background-color:aquamarine;
+    width: 300px; /*ancho*/
+    height:300px; /*alto*/
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 0 auto; /* eje y - eje x */
+    margin-top: 50px; /* Usar F12 para ver las medidas */
+}
+

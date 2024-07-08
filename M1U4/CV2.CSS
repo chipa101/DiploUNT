@@ -1,0 +1,47 @@
+h1{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.borde{
+    border: 5px solid black;
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+    color: green;
+}
+
+h2{
+    background-color:cadetblue;
+}
+
+.caja{
+    background-color:dodgerblue;
+    text-align: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 250px;
+}
+
+a{
+    color: bisque;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja:hover{
+    background-color:rgb(0, 114, 227);
+}
+
+.centro{
+    text-align: center;
+    margin-top: 15px;
+}
+
