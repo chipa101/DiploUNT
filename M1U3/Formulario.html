@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario: </h1>
+    <form action="">
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Ej: Jose">
+        </p>
+        <p>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="nombre" placeholder="Ej: Rodriguez">
+        </p>
+        <label>Sexo:</label>
+            <ul>
+                <li>
+                    <input type="radio" id="sexo_hombre" name="sexo" value="hombre">
+                    <label for="sexo_hombre">Hombre</label>
+                </li>
+                <li>
+                    <input type="radio" id="sexo_mujer" name="sexo" value="mujer">
+                    <label for="sexo_mujer">Mujer</label>
+                </li>
+            </ul>
+        <label>Titulo Solicitado:</label>
+        <ul>
+            <li>
+                <input type="checkbox" name="titulo" value="primario" id="primario">
+                <label for="primario">Primario Completo</label>
+            </li>
+            <li>
+                <input type="checkbox" name="titulo" value="secundario" id="secundario">
+                <label for="secundario">Secundario Completo</label>
+            </li>
+            <li>
+                <input type="checkbox" name="titulo" value="terciario" id="terciario">
+                <label for="terciario">Titulo Terciario</label>
+            </li>
+            <li>
+                <input type="checkbox" name="titulo" value="universitario" id="universitario">
+                <label for="universitario">Titulo Universitario</label>
+            </li>
+        </ul>
+        <p>
+            <label for="trabajo">Modalidad Solicitada:</label>
+            <select name="trabajo" id="trabajo">
+                <option value="Presencial">Presencial</option>
+                <option value="Part-Time">Part-Time</option>
+                <option value="Home-Office">Home-Office</option>
+                <option value="Otro">Otro</option>
+            </select>
+        </p>
+        <p>
+            <label for="comentarios">Comentarios:</label>
+            <textarea name="comentarios" id="comentarios"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+        <p>
+            <a href="CV.html">Volver al CV</a>
+        </p>
+    </form>
+</body>
+</html>
