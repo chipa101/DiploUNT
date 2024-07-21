@@ -1,0 +1,10 @@
+#texto {
+    column-count: 2;
+    column-gap: 100px; /*separacion entre columnas*/
+    column-rule: 1px solid black; /*linea entre columnas*/
+}
+
+#texto p {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}

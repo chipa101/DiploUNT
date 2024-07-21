@@ -1,0 +1,17 @@
+#caja {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin: 150px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 10px 20px 5px black; /*https://cssgenerator.org/*/
+    /*eje x - eje y - blur(desenfoque) - color*/ /*para abajo y para la derecha positivo - para izquiera y arriba negativo*/
+    border-radius: 20px; /*la sombra siempre acompaña*/ 
+    /*se pueden usar 4 valores
+    -arriba izq -arriba der -abajo izq -abajo der*/
+    border-radius: 50%; /*circulo (se puede usar en imagenes)*/
+    
+}
+
