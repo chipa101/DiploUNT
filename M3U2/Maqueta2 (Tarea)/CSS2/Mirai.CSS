@@ -215,21 +215,40 @@ main p {
 
 /* INICIO-CONTACTO */
 
-.contacto {
-    display: flex;
-    justify-content: center;
+.contacto { 
+    text-align: center;
 }
+
+.contacto h2{
+    font-size: 40px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 250px;
+}
+
+
 
 .contacto div {
     width: 100%;
 }
 
-.datos p {
-    font-size: 14px;
+.formulario {
+    display: inline-block;
+    text-align: right;
+    padding: 20px;
+    font-size: 25px;
 }
 
-.datos ul li {
-    font-size: 13px;
+.formulario {
+    border: 2px solid #ddd;
+    border-radius: 5px;
 }
 
 .formulario p {
@@ -237,7 +256,7 @@ main p {
 }
 
 .formulario p label {
-    min-width: 80px;
+    min-width: 140px;
 }
 
 .formulario p label {
@@ -252,22 +271,55 @@ main p {
 .formulario textarea{
     resize: none;
     height: 150px;
+    width: 334px;
 }
 
 .formulario input[type="submit"] {
-    background: #6da9ed;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    background: rgb(2, 181, 2);
     color: white;
-    font-size: 16px;
-    padding: 6px 20px;
-    width: auto;
-    position: relative;
-    left: 5rem;
+    font-size: 18px;
+    padding: 12px 50px;
     cursor: pointer;
+    position: relative;
+    left: 35%;
 }
 
 .formulario input[type="submit"]:hover {
-    background-color: #2e64a1;
+    background-color: rgb(1, 115, 1);
 }
 
+/* DATOS */
+
+.contacto h3{
+    font-size: 30px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 300px;
+}
+
+.datos p {
+    font-size: 25px;
+}
+
+.datos ul {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.datos ul li {
+    font-size: 18px;
+    list-style: none;
+}
+
+.datos i{
+    margin-right: 2px;
+}
 /* FIN_CONTACTO */
