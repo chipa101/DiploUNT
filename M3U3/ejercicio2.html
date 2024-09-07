@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+//Array de numeros (no usar comillas)
+//Recorrer (Bucle)
+//Cual es mayor
+
+const numeros = [5,55,47,9,61,4,12,56,99,7,15,33] //No se como agregar numeros al array
+
+const mayor = numeros[0]
+
+for (let i = 0; i < numeros.length; i++) 
+{
+	if (numeros[i] > mayor) {
+		mayor = numeros[i];
+	}		
+}
+
+document.write(`El numero mayor es: ${mayor}`);
+
+</script>
+
+</body>
+</html>
