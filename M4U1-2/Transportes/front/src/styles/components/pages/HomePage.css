@@ -1,0 +1,37 @@
+.Columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.Bienvenidos p {
+    font-size: 20px;
+}
+
+.Testimonios {
+    width: 25%;
+}
+
+.Testimonio {
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.Testimonios .Cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+
+.Testimonios .Autor {
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
